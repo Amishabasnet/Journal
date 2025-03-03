@@ -1,0 +1,22 @@
+<resources>
+    <!-- Base application theme without ActionBar (used for Splash or other screens without ActionBar) -->
+    <style name="Base.Theme.Journal.NoActionBar" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/pink_700</item>
+        <item name="colorPrimaryVariant">@color/pink_500</item>
+        <item name="android:textColor">@color/brown</item>
+
+    </style>
+
+    <!-- Theme for screens with ActionBar -->
+    <style name="Base.Theme.Journal.ActionBar" parent="Theme.Material3.Light">
+        <item name="colorPrimary">@color/pink_700</item>
+        <item name="colorPrimaryVariant">@color/pink_500</item>
+        <item name="android:textColor">@color/brown</item>
+        <item name="buttonIcon">@color/brown</item>
+    </style>
+
+    <!-- Extend the base theme for flexibility -->
+    <style name="Theme.Journal.NoActionBar" parent="Base.Theme.Journal.NoActionBar" />
+    <style name="Theme.Journal.ActionBar" parent="Base.Theme.Journal.ActionBar" />
+
+</resources>
